@@ -1,0 +1,125 @@
+﻿/** {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+body {
+    background-image: url('../../Recursos/imagenes/login.jpg');
+    background-size: 100%;
+    font-family: Arial;
+    /*background-repeat: no-repeat;*/
+    display:flex;
+    min-height:100vh;
+}
+
+.form_tittle{
+    font-size:2rem;
+    margin-bottom:.5em;
+    color:white;    
+}
+
+.form {
+    background: #24291A;
+    opacity: .7;
+    margin: auto;
+    width: 90%;
+    max-width: 320px;
+    padding: 1em 3em;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 20em;
+    translate:(200px;);
+}
+
+.form_container{
+    margin-top: 3em;
+    display:grid;
+    gap: 1em;
+}
+
+.form_group{
+    position:relative;
+}
+
+.form_input {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 9px;
+    font-size: 14px;
+    background: #24291A;
+    color: white;
+    text-transform: uppercase;
+}
+
+.divLogin {
+    position: relative;
+    /*background: linear-gradient(to right, #0170FF, #5CA6DD);*/
+    background: #24291A;
+    opacity: .7;
+    width: 30%;
+    height: 15em;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    /*top: 35%;*/
+    /*left: 73%;*/
+    /*transform: translate(195%, 80%);*/
+    top: 14rem;
+    left: 58%;
+    display: flex;
+    align-items: stretch;
+}
+
+.TituloLogin{
+    color:white;
+}
+
+
+.LoginFormulario {
+    position: relative;
+    top: 2em;
+    left: 50%;
+    align-content: center
+}
+
+.controls {
+    position:absolute;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 9px;
+    font-size: 14px;
+    background: #24291A;
+    color: white;
+    text-transform: uppercase;
+}
+
+.boton {
+    width: 100%;
+    height: 40px;
+    background: #6B7E41;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.form a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    .form a:hover {
+        text-decoration: underline;
+    }
+
+.mensaje{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+}

@@ -1,0 +1,65 @@
+﻿/*body {
+    background: darkgrey;
+}*/
+
+.contenedorPestanas {
+    width: 1080px;
+    margin: auto;
+    /*background: black;*/
+    color: black;
+    padding: 5px 5px 10px 5px;
+    border-radius: 10px;
+    /*box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);*/
+}
+
+    .contenedorPestanas .titulo {
+        font-size: 3.5ex;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+#pestanas {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+    #pestanas ul {
+        margin-left: -40px;
+    }
+
+    #pestanas li {
+        display: inline;
+        list-style-type: none;
+        float: left;
+        text-align: center;
+        margin: 0px 2px -2px -0px;
+        background: #5A5A5A;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 2px solid #a9a9a978;
+        border-bottom: dimgray;
+        padding: 0px 20px 0px 20px;
+    }
+
+    #pestanas a:link {
+        text-decoration: none;
+        color: white;
+    }
+
+#contenidopestanas {
+    clear: both;
+    background: white;
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 2px solid #a9a9a978;
+    width: 97%;
+}
+
+
+#lista > li {
+    display: inline !important;
+}
+

@@ -1,0 +1,71 @@
+﻿body {
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+.contenedor {
+    position: fixed;
+    width: 5%;
+    height: 100%;
+}
+
+
+.Classmenu {
+    background: rgb(10,70,10);
+    width: 60px;
+    height: 100%;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    float: left;
+    position: fixed;
+}
+
+    .Classmenu ul {
+        margin-top: 0px; 
+    }
+
+    .Classmenu ul li {
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-left: -40px;
+        cursor:pointer;
+    }
+
+        .Classmenu ul li:hover  {
+            cursor: pointer;
+            background: #2183CF;
+        }
+
+       .Classmenu ul li:hover img {
+            width: 26px;
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(313deg) brightness(111%) contrast(105%);
+        }
+
+        .Classmenu ul li img {
+            width: 25px;
+            filter: brightness(0) saturate(100%) invert(58%) sepia(1%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(91%);
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+
+
+
+
+.contenido {
+    width: 95%;
+    min-height: 100%;
+    background: #F1F1F1;
+    padding-left: 70px;
+    overflow-x:hidden;
+}
+
+
+div.center {
+    text-align: center;
+}

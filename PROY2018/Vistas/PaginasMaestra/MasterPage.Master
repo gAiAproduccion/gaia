@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PROY2018.Vistas.PaginasMaestra.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="/Scripts/_references.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate-vsdoc.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="/Scripts/modernizr-2.6.2.js" type="text/javascript"></script>
+    <script src="/Scripts/respond.js" type="text/javascript"></script>
+    <script src="/Scripts/respond.min.js" type="text/javascript"></script>
+
+    <script src="../../Recursos/js/ajax/MasterPage.js"></script>
+    <link href="../../Diseño/css/PaginaMaestra.css" rel="stylesheet" />
+     <link rel="shortcut icon" href="../../Recursos/imagenes/Robot%20final.png" />
+    <%--<img src="../../Recursos/imagenes/Robot%20final.png" />--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section class="contenedor">
+            <div class="Classmenu">
+                <ul>
+                    <li id="liInicio" title="Inicio"><a href='<% Response.Write(Page.ResolveUrl("~/Vistas/Principal/Inicio.aspx")); %>'>
+                        <span>
+                            <img src="../../Recursos/imagenes/inicio.png" /></span></a>
+                    </li>
+                    <li id="liUser" title="Cuenta"><a href='<% Response.Write(Page.ResolveUrl("~/Vistas/Principal/Cuenta.aspx")); %>'>
+                        <span>
+                            <img class="IconosLista" src="../../Recursos/imagenes/user.png" /></span></a>
+                    </li>
+                    <li id="liEquipos" title="IOT"><a href='<% Response.Write(Page.ResolveUrl("~/Vistas/Principal/IoT.aspx")); %>'>
+                        <span>
+                            <img src="../../Recursos/imagenes/iot.png" /></span></a>
+                    </li>
+                    <li id="liAlertas" title="Alertas"><a href='<% Response.Write(Page.ResolveUrl("~/Vistas/Principal/Alertas.aspx")); %>'>
+                        <span>
+                            <img src="../../Recursos/imagenes/advertencia.png" /></span></a>
+                    </li>
+                    <li id="liCerrarSesion" title="Cerrar Sesión"><a onclick="cerrarSesion();">
+                        <span>
+                            <img src="../../Recursos/imagenes/cerrar_sesionf.png" /></span></a>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <section class="contenido" style="overflow-x:hidden;">
+                <div style="overflow-x:hidden;" >
+                    <asp:ContentPlaceHolder ID="contenidoSistema" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div style="align-items:center;" align="center">
+                    <img src="../../Recursos/imagenes/pie.jpg" / style="width:100%; align-items:center;">
+                </div>
+                <div style="align-items:center; margin:0px" align="center" >
+                    <p style="font-size: 0.7em">
+                        ® Todos los Derechos Reservados - All rights reserved - ProduEnergy <br />
+                        Versión 1.1 - 2022 
+                    </p>
+                </div>
+            </section>
+    </form>
+</body>
+
+</html>

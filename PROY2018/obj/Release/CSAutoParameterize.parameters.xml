@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="conexionSql-Web.config Connection String" description="conexionSql Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=DESKTOP-L8B7MFV\SQLEXPRESS;Initial Catalog=PROY2018BD;Persist Security Info=True;User ID=user;Password=Energy#2022" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Estiven\ Rodriguez\\Documents\\Proyectos\\PROY2018\\PROY2018\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conexionSql']/@connectionString" />
+  </parameter>
+  <parameter name="conexionPRODUSql-Web.config Connection String" description="conexionPRODUSql Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=sql8003.site4now.net;Initial Catalog=db_a87916_gaiadb;Persist Security Info=True;User ID=db_a87916_gaiadb_admin;Password=Produ#2022" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Estiven\ Rodriguez\\Documents\\Proyectos\\PROY2018\\PROY2018\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conexionPRODUSql']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Estiven\ Rodriguez\\Documents\\Proyectos\\PROY2018\\PROY2018\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
